@@ -8,7 +8,7 @@ from common import SenseClient_pb2_grpc
 import pyaudio
 from six.moves import queue
 
-host_address = '34.80.243.56:50051'
+host_address = 'sense.cochlear.ai:50051'
 list_of_tasks = ['event']
 list_of_fileformats = ['mp3','wav','ogg','flac','mp4']
 
